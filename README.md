@@ -185,7 +185,7 @@ Market prices and financial statements are deterministic simulated data. This pr
 
 <div align="center">
 
-Built by **Anil Patel**
+Built by **Sanjana Patel**
 
 Realtime systems · FinTech · Python · TypeScript
 
