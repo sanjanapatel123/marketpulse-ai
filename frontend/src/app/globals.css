@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #080b12;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(
+      circle at 15% 0%,
+      rgba(16, 185, 129, 0.06),
+      transparent 35%
+    ),
+    #080b12;
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+::selection {
+  background: rgba(52, 211, 153, 0.25);
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080b12;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: #293141;
+}
